@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добро пожаловать!</title>
+</head>
+<body>
+
+<form th:method="GET" th:action="@{/books}">
+    <input type="submit" value="Все книги"/>
+</form>
+
+<hr>
+
+<form th:method="GET" th:action="@{/people}">
+    <input type="submit" value="Все люди"/>
+</form>
+
+<hr>
+
+<form th:method="GET" th:action="@{/books/search}">
+    <input type="submit" value="Поиск книг"/>
+</form>
+
+</body>
+</html>
