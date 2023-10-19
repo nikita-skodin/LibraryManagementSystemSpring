@@ -35,7 +35,6 @@ public class Book {
 
     @Column(name = "book_taking_date")
     @Temporal(TemporalType.DATE)
-    // TODO: 002 хз что по паттерну
     @DateTimeFormat(pattern = "dd-MM-yyyy")
     private Date bookTakingDate;
 
